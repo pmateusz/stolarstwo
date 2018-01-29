@@ -4,85 +4,91 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.ico"> 
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Stolarstwo</title>
-</head>
+    <meta name="description" content="Strona Główna" >
+    <title>Stolarstwo Polnik</title>
+<link href="app_eab200159b7c510bce12c9501fa40a2a.css" rel="stylesheet"></head>
+
 <body>
-    <div id="wrap">
-        <div id="main" class="container clear-top">
-            <nav class="navbar navbar-static-top navbar-default" role="navigation">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">Strona główna</a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbar-items">
-                        <ul class="nav navbar-nav">
-                            <li><a href="offer.html">Oferta</a></li>
-                            <li><a href="gallery.html">Galeria</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="contact.html">Kontakt</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-
-<div class="page-header">
-    <h1>Stolarstwo Polnik</h1>
-</div>
-
-<div class="index">
-    <div class="panel panel-default">
-        <img src="img/E2.jpg">
-        <div class="buttons">
-            <a href="offer.html" class="btn btn-primary btn-lg"> Oferta </a>
-            <a href="gallery.html" class="btn btn-primary btn-lg"> Galeria </a>
-        </div>
+  <nav class="stolarstwo-navbar navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="container-fluid col-md-10">
+      <a class="navbar-brand" href="index.html">Stolarstwo Polnik</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="offer.html">Oferta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Realizacje</a>
+          </li>
+          <li class="nav-item stolarstwo-nav_contact">
+            <a class="nav-link" href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
+  </nav>  <div class="page-index">
+    <div class="stolarstwo-container">
+      <div class="col-12">
+        <hero class="stolarstwo-hero">
+          <div class="stolarstwo-hero-box">
+            <h1 class="stolarstwo-hero-text stolarstwo-hero-text-line1">Stolarstwo Polnik</h1>
+            <h2 class="stolarstwo-hero-text stolarstwo-hero-text-line2">Z Wami już od 2003 roku</h2>
+            <div class="stolarstwo-hero-box-cta">
+              <a href="offer.html" class="stolarstwo-btn stolarstwo-btn-light btn btn-outline-light">Oferta</a>
+              <a href="gallery.html" class="stolarstwo-btn stolarstwo-btn-light btn btn-outline-light">Przykładowe realizacje</a>
+            </div>
+          </div>
 
-
-<script src="js/footer.js"></script>
-<!-- Footer is defined according to guideline at: http://stackoverflow.com/questions/10099422/flushing-footer-to-bottom-of-the-page-twitter-bootstrap -->
-<!-- Footer navbar example: http://getbootstrap.com/examples/sticky-footer-navbar/ -->
-    </div><!--main-->
-</div><!--wrap-->
-<footer class="footer">
-    <div>
-        <div class="left-col">
-              <ul class="list-unstyled">
-                <li><a href="index.html">Menu</a></li>
-                <li><a href="offer.html">Oferta</a></li>
-                <li><a href="gallery.html">Galeria</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-              </ul>
-        </div>
-        <div class="right-col">
-            <p><span class="glyphicon glyphicon-home"></span> 44-348 Skrzyszów, Księdza Roberta Wallacha 1<br/>
-            <span class="glyphicon glyphicon-phone-alt"></span> (+48) 508 195 367 <span class="glyphicon glyphicon-time"></span> 7:00 - 20:00<br/>
-            <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:stolarstwo.polnik@gmail.com">stolarstwo.polnik@gmail.com</a></p><br/>
-        </div>
-        <div class="footer-bottom">
-            <h6>&copy; Stolarstwo Polnik. All rights reserved.</h6>
-        </div>
+          <picture class="stolarstwo-picture" >
+                <source srcset="E2-2x_6872448a922ba9b74809c727197e6561.webp" type="image/webp">
+                <source srcset="E2-2x_c9d016dd0e20b6c84e7a78643e33145c.jpg" type="image/jpeg">
+                <img data-object-fit src="E2-2x_c9d016dd0e20b6c84e7a78643e33145c.jpg" alt="">
+            </picture>
+        </hero>
+      </div>
     </div>
-</footer>
+  </div>
+  <footer class="footer stolarstwo-footer">
+    <address>
+      <line>
+        <span class="material-icon">mail_outline</span>
+        <span class="text-nowrap">Księdza Roberta Wallacha 1,</span> <span class="text-nowrap">44-348 Skrzyszów</span>
+      </line>
+      <line>
+        <div class="text-nowrap">
+          <span class="material-icon">phone</span>
+            (+48) 508 195 367
+        </div>
+        <div class="text-nowrap">
+          <span class="material-icon">contact_phone</span>
+            7:00-20:00
+        </div>
+      </line>
+      <line>
+        <span class="material-icon">email</span>
+        <a href="mailto:stolarstwo.polnik@gmail.com">stolarstwo.polnik@gmail.com</a>
+      </line>
+    </address>
+    <cred>
+      <h6>
+        <span class="text-nowrap">&copy; Stolarstwo Polnik.</span>
+        <span class="text-nowrap">All rights reserved.</span>
+      </h6>
+    </cred>
+  </footer>
+<!-- Google Analytics -->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-62543201-1', 'auto');
-    ga('send', 'pageview');
+ga('create', 'UA-62543201-1', 'auto');
+ga('send', 'pageview');
 </script>
-</body>
+<!-- End Google Analytics -->
+<script type="text/javascript" src="app_e4ede2a6ed7177063c97.js"></script></body>
 </html>
